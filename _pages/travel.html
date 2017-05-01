@@ -1,0 +1,24 @@
+---
+layout: archive
+title: travel
+permalink: /travel/
+archive-category: travel
+author_profile: true
+title-trigger: true
+---
+
+{% capture written_day %}'None'{% endcapture %}
+
+{% for posts in site.posts %}
+{% if page.archive-category == posts.category %}
+  {% capture year %}{{ posts.date | date: '%Y' }}{% endcapture %}
+  {% capture month %}{{ posts.date | date: '%B' }}{% endcapture %}
+  {% capture day %}{{ posts.date | date: '%e' }}{% endcapture %}
+  {% if day != written_day %}
+    <h2 id="{{ day | slugify }}" class="archive__subtitle">{{ day }} {{month}}, {{ year }}</h2>
+    {% capture written_day %}{{ day }}{% endcapture %}
+    {% endif %}
+<!--Includes post picture, title, and exerpt-->
+   {% include archive-single-posts.html %}
+{% endif %}
+{% endfor %}
