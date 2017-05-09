@@ -1,7 +1,13 @@
-{% if posts.header.teaser %}
-  {% capture teaser %}{{ posts.header.teaser }}{% endcapture %}
+{% if posts.teaser %}
+  {% capture teaser %}{{ posts.teaser }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if teaser contains "://" %}
+     {% capture teaser %}{{ teaser }}{% endcapture %}       
+{% else %}
+   {% capture teaser %}{{ teaser | absolute_url }}{% endcapture %}
 {% endif %}
 
 {% if posts.id %}
@@ -13,17 +19,21 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       
-
+<!--post image-->
       {% if teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | absolute_url }}"
-          {% endif %}
-          alt="">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="archive__item-teaser" style="background-image: url( {{ teaser }});"></div>
+          </div>
       </div>
+    {% endif %}
+<!--date-->
+    {% capture year %}{{ posts.date | date: '%Y' }}{% endcapture %}
+    {% capture month %}{{ posts.date | date: '%B' }}{% endcapture %}
+    {% capture day %}{{ posts.date | date: '%e' }}{% endcapture %}
+    {% if day != written_day %}
+      <h3 id="{{ day | slugify }}" class="archive__subtitle">{{ day }} {{month}}, {{ year }}</h3>
+    {% capture written_day %}{{ day }}{% endcapture %}
     {% endif %}
 <!--posts title-->
     <h2 class="archive__item-title" itemprop="headline">

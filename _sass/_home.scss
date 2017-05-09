@@ -10,6 +10,9 @@ home {
 .fill-picture {
     height: 100vh;
     background-size: cover;
+    }
+.fixed{
+    //position: fixed;
 }
 .small {
     font-size: $type-size-2 !important;
@@ -39,6 +42,9 @@ home {
 .padding{
     padding-left: 30px;
     padding-right: 30px;
+    p {
+        font-size: 14px;
+    }
 }
 .icon-padding { 
     margin-left: 20px;
