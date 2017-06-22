@@ -78,8 +78,8 @@ analytics:
 # Site Author
 author:
   name             : "Jeremiah Baarbe"
-  avatar           : "/assets/img/baarbe.jpg"
-  bio              : "I'm a law student and nerd. This is my travel blog!"
+  avatar           : "http://baarbe.ca/assets/img/baarbe.jpg"
+  bio              : "Building tech to answer challenging legal questions"
   location         : "Ottawa, ON"
   email            :
   uri              :

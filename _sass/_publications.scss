@@ -1,0 +1,40 @@
+/* ==========================================================================
+  PUBLICATION POST
+   ========================================================================== */
+
+.publication{
+    .pub-heading {
+        margin-top: 70px;
+        border-bottom: 1px solid $border-color;
+        padding-bottom: 0.25em;
+        margin-bottom: 15px;
+    }
+    .pub-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pub-item {
+        display: block;
+        margin-top: 2.5em;
+        margin-bottom: 3em;
+    }
+
+    .pub-citation {
+        padding-top: 25px;
+        margin-left: 10px;
+        padding-left: 35px;
+        text-align: justify;
+    }
+    .pub-citation:first-letter {
+        margin-left: -30px;
+    }
+    .iasc{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .container-fluid{
+        width: 130%; 
+    }
+}
