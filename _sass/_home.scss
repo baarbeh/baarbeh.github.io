@@ -39,7 +39,26 @@ home {
   justify-content: center; /* Optional, to align inner flex-items
                               horizontally within the column  */
 }
-.padding{
+.home-text-large{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    p {
+        font-size: 14px;
+        text-indent: 20px;
+    }
+}
+.home-text-small{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    p {
+        font-size: 18px;
+        margin-bottom: 1.75em;
+        text-indent: 20px;
+    }
+}
+.home-icons{
     padding-left: 30px;
     padding-right: 30px;
     p {
@@ -47,7 +66,7 @@ home {
     }
 }
 .icon-padding { 
-    margin-left: 20px;
+    margin-left: .4em;
 }
 .bottom {
     margin-bottom: 15px;
@@ -63,7 +82,6 @@ home {
     transition-duration: 0.3s;
     transition-property: transform;
 }
-
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
@@ -72,5 +90,5 @@ home {
 ul {
     padding-top: 5px;
     line-height: 36px;
-    padding-bottom: 15px;
+    //padding-bottom: 15px;
 }

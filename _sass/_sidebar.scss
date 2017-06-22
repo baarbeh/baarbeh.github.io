@@ -70,19 +70,19 @@
   vertical-align: top;
   width: 36px;
   height: 36px;
-
+  
   @include breakpoint($large) {
     display: block;
     width: auto;
     height: auto;
-  }
+    }
 
   img {
     max-width: 300px;
-    border-radius: $border-radius;
+    border-radius: 8px;
     @include breakpoint($large) {
-      padding: 5px;
-//      border: 1px solid $border-color;
+    padding: 5px;
+    //      border: 1px solid $border-color;
     }
   }
 }

@@ -30,7 +30,7 @@
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
-          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
+          <i class="zmdi zmdi-pin zmdi-hc mdc-text-grey-600 hvr-grow" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
         </li>
       {% endif %}
 
@@ -62,7 +62,7 @@
       {% if author.twitter %}
         <li>
           <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs">
-            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+            <i class="zmdi zmdi-twitter-box zmdi-hc mdc-text-grey-600 hvr-grow" aria-hidden="true"></i> Twitter
           </a>
         </li>
       {% endif %}
@@ -86,7 +86,7 @@
       {% if author.linkedin %}
         <li>
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs">
-            <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+            <i class="zmdi zmdi-linkedin-box zmdi-hc mdc-text-grey-600 hvr-grow" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
       {% endif %}
@@ -126,7 +126,7 @@
       {% if author.github %}
         <li>
           <a href="https://github.com/{{ author.github }}" itemprop="sameAs">
-            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+            <i class="zmdi zmdi-github zmdi-hc mdc-text-grey-600 hvr-grow" aria-hidden="true"></i> GitHub
           </a>
         </li>
       {% endif %}
