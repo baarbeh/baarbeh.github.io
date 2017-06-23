@@ -1,159 +1,129 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Site Settings
-locale                   : "en"
-title                    : "Jeremiah Baarbe"
-title_separator          : "―"
-name                     : "Jeremiah Baarbe"
-description              : "Law student interested in tech and law. Searching for articling positions for Summer, 2018"
-url                      : "http://baarbe.ca"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/img/Madrid Sun.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs            : false #false (default)
-words_per_minute         : 200
-#comments:
-#  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-#  disqus:
-#    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-#  discourse:
-#    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-#  facebook:
-#    # https://developers.facebook.com/docs/plugins/comments
-#    appid                :
-#    num_posts            : # 5 (default)
-#    colorscheme          : # "light" (default), "dark"
-#staticman:
-#  allowedFields          : ['name', 'email', 'url', 'message']
-#  branch                 : "master"
-#  commitMessage          : "New comment."
-#  filename               : comment-{@timestamp}
-#  format                 : "yml"
-#  moderation             : true
-#  path                   : "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
-#  requiredFields         : ['name', 'email', 'message']
-#  transforms:
-#    email                : "md5"
-#  generatedFields:
-#    date:
-#      type               : "date"
-#      options:
-#        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+---
+title: Jeremiah Baarbe
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  travel:
+    title: Travel
+    output: true
+    permalink: "/travel/:path/"
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: travel
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    share: true
+    related: true
+    subtitle: Hello world
+locale: en
+title_separator: "―"
+name: Jeremiah Baarbe
+description: Law student interested in tech and law. Searching for articling positions
+  for Summer, 2018
+url: http://baarbe.ca
+baseurl: 
+repository: 
+teaser: "/assets/img/Madrid Sun.jpg"
+breadcrumbs: false
+words_per_minute: 200
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
-# Social Sharing
+  path: 
+google_site_verification: 
+bing_site_verification: 
+alexa_site_verification: 
+yandex_site_verification: 
 twitter:
-  username               : "@baarbeh"
+  username: "@baarbeh"
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-  og_image               : "http://baarbe.ca/assets/img/baarbe-og.jpg"
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+  username: 
+  app_id: 
+  publisher: 
+  og_image: http://baarbe.ca/assets/img/baarbe-og.jpg
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : "Jeremiah Baarbe"
-  links: # An array of links to social media profiles
-
-# Analytics
+  type: 
+  name: Jeremiah Baarbe
+  links: 
 analytics:
-  provider               : 
-    google:
-    tracking_id          : "UA-92975012-1"
-
-
-# Site Author
+  provider:
+    google: 
+    tracking_id: UA-92975012-1
 author:
-  name             : "Jeremiah Baarbe"
-  avatar           : "http://baarbe.ca/assets/img/baarbe.jpg"
-  bio              : "Building tech to answer challenging legal questions"
-  location         : "Ottawa, ON"
-  email            :
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "/baarbeh/"
-  google_plus      :
-  keybase          :
-  instagram        : 
-  lastfm           :
-  linkedin         : "/jeremiahbaarbe/"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
-  steam            :
-  tumblr           :
-  twitter          : /@baarbeh/
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
-
-
-# Reading Files
+  name: Jeremiah Baarbe
+  avatar: http://baarbe.ca/assets/img/baarbe.jpg
+  bio: Building tech to answer challenging legal questions
+  location: Ottawa, ON
+  email: 
+  uri: 
+  bitbucket: 
+  codepen: 
+  dribbble: 
+  flickr: 
+  facebook: 
+  foursquare: 
+  github: "/baarbeh/"
+  google_plus: 
+  keybase: 
+  instagram: 
+  lastfm: 
+  linkedin: "/jeremiahbaarbe/"
+  pinterest: 
+  soundcloud: 
+  stackoverflow: 
+  steam: 
+  tumblr: 
+  twitter: "/@baarbeh/"
+  vine: 
+  weibo: 
+  xing: 
+  youtube: 
 include:
-  - .htaccess
-  - _pages
-  - _travel
+- ".htaccess"
+- _pages
+- _travel
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+- "*.sublime-project"
+- "*.sublime-workspace"
+- vendor
+- ".asset-cache"
+- ".bundle"
+- ".jekyll-assets-cache"
+- ".sass-cache"
+- assets/js/plugins
+- assets/js/_main.js
+- assets/js/vendor
+- Capfile
+- CHANGELOG
+- config
+- Gemfile
+- Gruntfile.js
+- gulpfile.js
+- LICENSE
+- log
+- node_modules
+- package.json
+- Rakefile
+- README
+- tmp
+- "/docs"
+- "/test"
 keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
+- ".git"
+- ".svn"
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -163,108 +133,31 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-
-# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
+  style: compressed
+permalink: "/:categories/:title/"
+paginate: 5
+paginate_path: "/page:num/"
 gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-# mimic GitHub Pages with --safe
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-feed
+- jemoji
 whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-gist
+- jekyll-feed
+- jemoji
 category_archive:
   type: liquid
-  path: /categories/
+  path: "/categories/"
 tag_archive:
   type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
+  path: "/tags/"
 compress_html:
   clippings: all
   ignore:
     envs: development
-
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-      masthead: disable
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-      
-      
-#Collections
-collections:
-    travel:
-       output: true
-       permalink: /travel/:path/
-       title: "Travel"
-    
-#travel defaults
-defaults:
-  - scope:
-      path: ""
-      type: travel
-      masthead-title: collection
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-      related: true
-      subtitle: Hello world
