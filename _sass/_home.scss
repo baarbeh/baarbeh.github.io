@@ -11,8 +11,8 @@ home {
     height: 100vh;
     background-size: cover;
     }
-.fixed{
-    //position: fixed;
+.affix{
+    width: 50%;
 }
 .small {
     font-size: $type-size-2 !important;
@@ -58,11 +58,21 @@ home {
         text-indent: 20px;
     }
 }
+.home-emoji{
+    padding-left: 30px;
+    padding-right: 30px;
+   li {
+        font-size: .9em;
+    }
+}
 .home-icons{
     padding-left: 30px;
     padding-right: 30px;
-    p {
-        font-size: 14px;
+    margin: auto;
+    display: block;
+    
+     li {
+              font-size: 1.5em;
     }
 }
 .icon-padding { 
