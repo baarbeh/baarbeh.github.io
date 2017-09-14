@@ -28,7 +28,6 @@ home {
     font-weight: 100 !important;
 }
 .vertical-align {
-  margin-top: 80px;
   display: flex;
   flex-direction: row;
 }
@@ -38,6 +37,27 @@ home {
   align-items: center;     /* Align the flex-items vertically */
   justify-content: center; /* Optional, to align inner flex-items
                               horizontally within the column  */
+}
+.position {
+  margin-top: 80px;    
+}
+.menu-bar {
+    position: absolute; 
+    top: 30px; 
+    right: 40px; 
+    margin-left: 40px;
+}
+.menu {
+    display: none;
+    width: 100%;
+    padding: 24px 100px 50px;
+    margin: auto;
+}
+.menu a:hover {
+    opacity: 1;
+}
+.navbar {
+    margin-bottom: 0px !important;
 }
 .home-text-large{
     padding-left: 30px;
