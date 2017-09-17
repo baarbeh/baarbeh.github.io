@@ -26,7 +26,9 @@
       {% if forloop.last %}
       <span class="sep"><br>{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
       <li class="current">{{ page.title | downcase }}</li>
-      {% else %}
+      {% else %} 
+            <span class="sep"><br>{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ site.url }}{{ site.baseurl }}/blog"> blog</a></li>
         {% assign i = i | plus: 1 %}
         <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
         <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">

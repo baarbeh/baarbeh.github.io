@@ -10,8 +10,8 @@ $masthead-height            : 100px;
 $doc-font-size              : 18px !default;
 
 /* paragraph indention */
-$paragraph-indent           : false !default; // true, false (default)
-$indent-var                 : 1.3em !default;
+$paragraph-indent           : true !default; // true, false (default)
+$indent-var                 : 2em !default;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif !default;
@@ -62,7 +62,7 @@ $code-background-color-dark : $light-gray !default;
 $text-color                 : $dark-gray !default;
 $border-color               : $lighter-gray !default;
 
-$primary-color              : #7a8288 !default;
+$primary-color              : #2A5DB0 !default; //#7a8288
 $success-color              : #62c462 !default;
 $warning-color              : #f89406 !default;
 $danger-color               : #ee5f5b !default;
@@ -95,7 +95,7 @@ $xing-color                 : #006567 !default;
 $link-color                 : $primary-color !default;
 $link-color-hover           : mix(#000, $link-color, 25%) !default;
 $link-color-visited         : mix(#fff, $link-color, 25%) !default;
-$masthead-link-color        : $primary-color !default;
+$masthead-link-color        : #7a8288 !default;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%) !default;
 
 

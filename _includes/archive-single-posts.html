@@ -32,9 +32,20 @@
     {% capture month %}{{ posts.date | date: '%B' }}{% endcapture %}
     {% capture day %}{{ posts.date | date: '%e' }}{% endcapture %}
     {% if day != written_day %}
-      <h3 id="{{ day | slugify }}" class="archive__subtitle">{{ day }} {{month}}, {{ year }}</h3>
+    <div class="blog-meta">
+      <div id="{{ day | slugify }}" class="archive__subtitle"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ day }} {{month}}, {{ year }}</div>
+    </div>
     {% capture written_day %}{{ day }}{% endcapture %}
     {% endif %}
+    <div class="blog-meta">
+         <p class="page__meta"><i class="zmdi zmdi-time" aria-hidden="true"></i> {% include read-time.html %}</p>
+    </div>
+    <div class="blog-meta">
+        <p class="page__meta"><a href="{{ site.url }}{{ site.baseurl }}/{{ posts.categories }}"><i class="fa fa-fw fa-folder-open" aria-hidden="true"></i> {{ posts.categories }}</a></p>
+    </div>
+    <div class="blog-meta">
+        <p class="page__meta"><a href="{{ site.url }}{{ site.baseurl }}/{{ posts.tag }}"><i class="fa fa-fw fa-tags"></i> {{posts.tag}}</a></p>
+    </div>  
 <!--posts title-->
     <h2 class="archive__item-title" itemprop="headline">
       {% if posts.link %}
@@ -44,9 +55,6 @@
       {% endif %}
     </h2>
 <!--End posts title -->
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if posts.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ posts.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+   {% if posts.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ posts.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>
