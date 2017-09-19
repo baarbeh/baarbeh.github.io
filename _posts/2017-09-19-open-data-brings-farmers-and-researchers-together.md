@@ -6,9 +6,9 @@ categories:
 tag:
 - speaking
 layout: single
-teaser: "/assets/img/1024px-cropscientist.jpg"
+teaser: "/assets/img/cropscientist.jpg"
 header: 
-    image: "/assets/img/1024px-cropscientist.jpg"
+    image: "/assets/img/cropscientist.jpg"
 author_profile: true
 ---
 
