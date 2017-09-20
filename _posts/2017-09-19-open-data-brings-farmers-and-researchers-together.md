@@ -18,9 +18,11 @@ Agricultural research is changing. Researchers and farmers are seeing the benefi
 
 Open access is an important tool to facilitate communication between researchers and farmers. In our digital world, open access  expands the reach of research. These two groups are able to share knowledge and work together without ever meeting or directly communicating. Open access to research articles and books provides farmers with incredible resources, allowing them to apply best practices, solve problems, and grow crops more efficiently. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o43P8SO82qU" frameborder="0" allowfullscreen></iframe>
+<iframe align="middle" width="560" height="315" src="https://www.youtube.com/embed/o43P8SO82qU" frameborder="0" allowfullscreen></iframe>
 
-Open data, in particular, brings farmers and researchers together. In our digital economy, data is now [the worlds most valuable resource](https://www.economist.com/news/leaders/21721656-data-economy-demands-new-approach-antitrust-rules-worlds-most-valuable-resource). This is especially true for agricultural data, which has become as important as land and labour in managing farms. Agricultural data is found across the food-production chain. Governments make policy based on land use data, farmers rely on data to decide when to plant crops and what price to ask for their crops at market, and scientists use data to drive their research. Opening this data facilitates communication, spreading the benefits across the data ecosystem. Scientists gain access to important data sources, often directly from farmers. Developers are able to build innovative tools. Farmers gain access to new insights and ways to make decisions. These benefits are part of why [GODAN](http://www.godan.info), the Global Open Data for Agriculture and Nutrition sees open data as key in meeting Sustainable Development Goal 2 of [zero hunger](http://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-2-zero-hunger.html). 
+Open data, in particular, brings farmers and researchers together. In our digital economy, data is now [the worlds most valuable resource](https://www.economist.com/news/leaders/21721656-data-economy-demands-new-approach-antitrust-rules-worlds-most-valuable-resource). This is especially true for agricultural data, which has become as important as land and labour in managing farms. Agricultural data is found across the food-production chain. Governments make policy based on land use data, farmers rely on data to decide when to plant crops and what price to ask for their crops at market, and scientists use data to drive their research. 
+
+Opening agricultural data facilitates communication, spreading the benefits across the data ecosystem. Scientists gain access to important data sources, often directly from farmers. Developers are able to build innovative tools. Farmers gain access to new insights and ways to make decisions. These benefits are part of why [GODAN](http://www.godan.info), the Global Open Data for Agriculture and Nutrition sees open data as key in meeting Sustainable Development Goal 2 of [zero hunger](http://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-2-zero-hunger.html). 
 
 
 > Open data is data that can be freely used, re-used and distributed by anyone – subject only, at most, to the requirement to attribute and sharealike. 
@@ -35,8 +37,7 @@ In a recent working paper, ["A Data Commons for Food Security"](http://www.opena
 
 I'm excited to share these insights with farmers and researchers at a [webinar hosted by GFAR](https://blog.gfar.net/2017/08/25/join-our-gfar-webinar-farmers-rights/) on September 19, 2017. 
 
-
-<img style="margin-left: -2em;" src="{{ site.url }}{{ site.baseurl }}/assets/img/a-data-commons-_23243752.png" alt="A Data Commons Infographic">
+![A Data Commons Infographic]({{ site.url }}{{ site.baseurl }}/assets/img/a-data-commons-_23243752.png)
 
 *“Open AIR is carried out with financial support from the International Development Research Centre, Canada, the Social Sciences and Humanities Research Council of Canada, and Queen Elizabeth Scholars. More information about Open AIR's current and previous supporters can be found [here](http://www.openair.org.za/supporters/). The views expressed herein do not necessarily represent those of Open AIR's funders."*
 

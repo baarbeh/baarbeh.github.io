@@ -1,0 +1,21 @@
+---
+title: open data posts
+permalink: "/open-data/"
+layout: archive
+archive-category: 
+- open data
+author_profile: true
+title-trigger: true
+---
+
+{% capture written_day %}'None'{% endcapture %}
+
+{% for posts in site.posts %}
+{% if page.archive-category == posts.categories %}
+<!--Includes post picture, title, and exerpt-->
+   {% include archive-single-posts.html %}
+<!--Includes post date. TODO: Add time to read-->
+
+
+{% endif %}
+{% endfor %}

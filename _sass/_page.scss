@@ -25,9 +25,9 @@
     @include suffix(2 of 12);
       .text-body {
       p {
-          text-indent: $indent-var !important;
-          line-height: 1.9em !important;
+          line-height: 1.8em !important;
           margin-top: 1.2em !important;
+          text-align: justify;
         }
       }
     }
@@ -68,7 +68,7 @@
 
   /* paragraph indents */
   p {
-    text-indent: $indent-var !important;
+//    text-indent: $indent-var !important;
     line-height: 2em !important;
 //    margin: 0 0 $indent-var;
 //    margin-top: 2em;

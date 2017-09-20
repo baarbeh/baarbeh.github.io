@@ -52,9 +52,9 @@ social:
   name: Jeremiah Baarbe
   links: 
 analytics:
-  provider:
-    google: 
-    tracking_id: UA-92975012-1
+  provider: "google"
+  google:
+    tracking_id: "UA-92975012-1"
 author:
   name: Jeremiah Baarbe
   avatar: http://baarbe.ca/assets/img/baarbe.jpg
