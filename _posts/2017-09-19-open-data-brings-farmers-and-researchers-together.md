@@ -12,13 +12,16 @@ header:
 author_profile: true
 ---
 
+*this blog is cross-posted on [Open AIR's website](http://openair.org.za/open-data-brings-farmers-and-researchers-together)*
+
 How can farmers and researchers use open data to work together for food security?
 
-Agricultural research is changing. Researchers and farmers are seeing the benefits of working together. Farmers enjoy solutions and best practices proven by research. Researchers benefit as they gain access to grounded knowledge and experience.  
+Agricultural research is changing as researchers and farmers are seeing the benefits of working together. Farmers enjoy solutions and best practices proven by research. Researchers benefit as they gain access to grounded knowledge and experience. Open data and other forms of open access to knowledge help facilitate these relationships. 
 
-Open access is an important tool to facilitate communication between researchers and farmers. In our digital world, open access  expands the reach of research. These two groups are able to share knowledge and work together without ever meeting or directly communicating. Open access to research articles and books provides farmers with incredible resources, allowing them to apply best practices, solve problems, and grow crops more efficiently. 
+On September 19th, 2017 I represented [Open AIR](http://openair.africa) and [GODAN](http://godan.info) in a webinar hosted by [GFAR](http://www.gfar.net/), the Global Forum on Agricultural Research and Innovation. The webinar focused on how farmer rights facilitate and frustrate cooperation with researchers. You can watch my talk and the whole video below. 
 
-<iframe align="middle" width="560" height="315" src="https://www.youtube.com/embed/o43P8SO82qU" frameborder="0" allowfullscreen></iframe>
+
+<iframe align="middle" width="560" height="315" src="https://www.youtube.com/embed/xQ9c2_nbtBc?start=5393" frameborder="0" allowfullscreen></iframe>
 
 Open data, in particular, brings farmers and researchers together. In our digital economy, data is now [the worlds most valuable resource](https://www.economist.com/news/leaders/21721656-data-economy-demands-new-approach-antitrust-rules-worlds-most-valuable-resource). This is especially true for agricultural data, which has become as important as land and labour in managing farms. Agricultural data is found across the food-production chain. Governments make policy based on land use data, farmers rely on data to decide when to plant crops and what price to ask for their crops at market, and scientists use data to drive their research. 
 
