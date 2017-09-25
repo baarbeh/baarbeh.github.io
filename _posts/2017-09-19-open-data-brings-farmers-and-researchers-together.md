@@ -12,7 +12,7 @@ header:
 author_profile: true
 ---
 
-*this blog is cross-posted on [Open AIR's website](http://openair.org.za/open-data-brings-farmers-and-researchers-together)*
+*Cross-posted on [Open AIR's website](http://openair.org.za/open-data-brings-farmers-and-researchers-together)*
 
 How can farmers and researchers use open data to work together for food security?
 
