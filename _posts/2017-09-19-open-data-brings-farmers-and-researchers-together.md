@@ -18,7 +18,7 @@ How can farmers and researchers use open data to work together for food security
 
 Agricultural research is changing as researchers and farmers are seeing the benefits of working together. Farmers enjoy solutions and best practices proven by research. Researchers benefit as they gain access to grounded knowledge and experience. Open data and other forms of open access to knowledge help facilitate these relationships. 
 
-On September 19th, 2017 I represented [Open AIR](http://openair.africa) and [GODAN](http://godan.info) in a webinar hosted by [GFAR](http://www.gfar.net/), the Global Forum on Agricultural Research and Innovation. The webinar focused on how farmer rights facilitate and frustrate cooperation with researchers. You can watch my talk and the whole video below. 
+On September 19th, 2017 I represented [Open AIR](http://openair.africa) and [GODAN](http://godan.info) in a webinar hosted by [GFAR](http://www.gfar.net/), the Global Forum on Agricultural Research and Innovation. The webinar focused on how farmer rights facilitate and frustrate cooperation with researchers. You can watch my talk and the whole video below. Scroll to 1h 30m for the beginning of my talk.  
 
 
 <iframe align="middle" width="560" height="315" src="https://www.youtube.com/embed/xQ9c2_nbtBc?start=5393" frameborder="0" allowfullscreen></iframe>
