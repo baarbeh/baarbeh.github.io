@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/baarbeh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://baarbe.ca
+  * I am baarbeh (https://keybase.io/baarbeh) on keybase.
+  * I have a public key ASB_HKCJVDO1OlaTObDnioAdJNF6-xf8Lcy0nl4V_dAvWgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207f1ca0895433b53a569339b0e78a801d24d17afb17fc2dccb49e5e15fdd02f5a0a",
+      "host": "keybase.io",
+      "kid": "01207f1ca0895433b53a569339b0e78a801d24d17afb17fc2dccb49e5e15fdd02f5a0a",
+      "uid": "be7d29d6e55a0951b3f4128dec7a0a19",
+      "username": "baarbeh"
+    },
+    "merkle_root": {
+      "ctime": 1511022934,
+      "hash": "4684bf8153d6472efbcc1e695a6e3fb2795969149ec548372b822896deb159a9e248dbfda661ba68da2b6bfdf3b03fbb0c93bac24240dae9bacf729d70e87a1e",
+      "hash_meta": "dc32018695cbe8bd9a1fda2cff787094e491df72c20491f4cf6d7cd0a1d7fb7d",
+      "seqno": 1717948
+    },
+    "service": {
+      "hostname": "baarbe.ca",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.34"
+  },
+  "ctime": 1511022943,
+  "expire_in": 504576000,
+  "prev": "c6b4f63c50dd7cd5e20e2c7dede9baf0db55657e1b945e2ec860e11813231017",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgfxygiVQztTpWkzmw54qAHSTRevsX/C3MtJ5eFf3QL1oKp3BheWxvYWTFAz97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwN2YxY2EwODk1NDMzYjUzYTU2OTMzOWIwZTc4YTgwMWQyNGQxN2FmYjE3ZmMyZGNjYjQ5ZTVlMTVmZGQwMmY1YTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwN2YxY2EwODk1NDMzYjUzYTU2OTMzOWIwZTc4YTgwMWQyNGQxN2FmYjE3ZmMyZGNjYjQ5ZTVlMTVmZGQwMmY1YTBhIiwidWlkIjoiYmU3ZDI5ZDZlNTVhMDk1MWIzZjQxMjhkZWM3YTBhMTkiLCJ1c2VybmFtZSI6ImJhYXJiZWgifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTEwMjI5MzQsImhhc2giOiI0Njg0YmY4MTUzZDY0NzJlZmJjYzFlNjk1YTZlM2ZiMjc5NTk2OTE0OWVjNTQ4MzcyYjgyMjg5NmRlYjE1OWE5ZTI0OGRiZmRhNjYxYmE2OGRhMmI2YmZkZjNiMDNmYmIwYzkzYmFjMjQyNDBkYWU5YmFjZjcyOWQ3MGU4N2ExZSIsImhhc2hfbWV0YSI6ImRjMzIwMTg2OTVjYmU4YmQ5YTFmZGEyY2ZmNzg3MDk0ZTQ5MWRmNzJjMjA0OTFmNGNmNmQ3Y2QwYTFkN2ZiN2QiLCJzZXFubyI6MTcxNzk0OH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJiYWFyYmUuY2EiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM0In0sImN0aW1lIjoxNTExMDIyOTQzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImM2YjRmNjNjNTBkZDdjZDVlMjBlMmM3ZGVkZTliYWYwZGI1NTY1N2UxYjk0NWUyZWM4NjBlMTE4MTMyMzEwMTciLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECl6HEdXqj+hOOaf6C7+SmTCgK4SE018VlOqR6gtuJEnssOmCuv3Vm9KEQjBoURPX+Qcr6Hike+G/n9GhdYetMAqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgyjuzzaeNhYa5HWZ5zq18sOEv6ADyXu2bhAxbcHMDxKCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/baarbeh
+
+==================================================================
